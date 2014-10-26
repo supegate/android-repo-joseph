@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/hello" />
+	<TextView
+		android:text="받아올걸보여줄 곳"
+		android:id="@+id/resultTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<Button
+		android:text="결과를 받기위해서 Activity를 호출"
+		android:id="@+id/callB"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+</LinearLayout>

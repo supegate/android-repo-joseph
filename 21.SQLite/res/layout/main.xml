@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			android:text="CAR NAME"
+			android:layout_width="80px"
+			android:gravity="center_vertical"
+			android:layout_height="wrap_content"/>
+		<EditText
+			android:id="@+id/nameET"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:focusableInTouchMode="true"
+			/>
+	</LinearLayout>
+	<Button
+		android:text="Insert Car"
+		android:id="@+id/insert"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<ImageView
+		android:layout_width="fill_parent"
+		android:background="#0000FF"
+		android:layout_height="10px"
+		android:layout_marginBottom="10px" />
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			android:text="ID"
+			android:gravity="center_vertical"
+			android:layout_width="80px"
+			android:layout_height="wrap_content"></TextView>
+		<EditText
+			android:id="@+id/idET"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:cursorVisible="true"></EditText>
+	</LinearLayout>
+	<Button
+		android:text="Select One"
+		android:id="@+id/selectOne"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<ImageView
+		android:layout_width="fill_parent"
+		android:background="#0000FF"
+		android:layout_height="10px"
+		android:layout_marginBottom="10px" />
+	<Button
+		android:text="Select All Cars"
+		android:id="@+id/selectAll"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<ImageView
+		android:layout_width="fill_parent"
+		android:background="#0000FF"
+		android:layout_height="10px"
+		android:layout_marginBottom="10px" />
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			android:gravity="center_vertical"
+			android:layout_width="80px"
+			android:layout_height="wrap_content"
+			android:text="CAR NAME"></TextView>
+		<EditText
+			android:id="@+id/namelikeET"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></EditText>
+	</LinearLayout>
+	<Button
+		android:text="Select Cars By Name"
+		android:id="@+id/selectByName"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+</LinearLayout>

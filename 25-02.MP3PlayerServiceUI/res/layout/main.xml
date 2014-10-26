@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent">
+ <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="MP3 PLAYER CONTROL UI"
+  android:gravity="center" />
+ <LinearLayout
+  android:gravity="center"
+  android:layout_height="wrap_content"
+  android:layout_width="fill_parent">
+  
+ 
+ <Button
+  android:id="@+id/playB"
+  android:layout_width="wrap_content"
+  android:text="go"
+  android:layout_height="wrap_content"></Button>
+ 
+ 
+ <Button
+  android:id="@+id/stopB"
+  android:layout_width="wrap_content"
+  android:text="kkk"
+  android:layout_height="wrap_content"></Button>
+  </LinearLayout>
+  
+ <ImageView
+  android:scaleType="fitXY"
+  android:src="@drawable/icon"
+  android:layout_height="fill_parent"
+  android:layout_width="fill_parent"
+  android:id="@+id/imageView1"></ImageView>
+</LinearLayout>

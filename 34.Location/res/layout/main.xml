@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:paddingLeft="10dp"
+		android:id="@+id/displayTV"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="LOCATION SERVICE"
+		android:textColor="#FFFFFF00"
+		android:textSize="16sp"
+		android:textStyle="bold" 
+	/>
+	<com.google.android.maps.MapView
+	    android:id="@+id/mapview"
+	    android:clickable="true"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:apiKey="015zbR-fuqREqaGvxE8bH9LVKogKseBwKlzMKjw" />
+</LinearLayout>
