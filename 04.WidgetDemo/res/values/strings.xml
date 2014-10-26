@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="hello">Hello World, WidgetDemoActivity!</string>
-    <string name="app_name">WidgetDemoApp</string>
-	<string name="button_title">
-		외부리소스로설정된버튼제목
-	</string>
-</resources>
