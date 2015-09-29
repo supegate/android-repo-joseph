@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ae5cdf2_d702680a",
+        "filename": "readme.txt.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1006366
+      },
+      "writtenOn": "2015-09-29T12:57:04Z",
+      "side": 1,
+      "message": "This change is cool!",
+      "range": {
+        "startLine": 1,
+        "startChar": 12,
+        "endLine": 1,
+        "endChar": 18
+      },
+      "revId": "ef8f98392233d84bfcf42863ce692114ce260b94",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
